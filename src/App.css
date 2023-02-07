@@ -1,0 +1,131 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_logo {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.hr-menu {
+  border-top: 1px dashed #20446f;
+}
+.logo_container {
+  padding: 16px;
+  font-weight: 600;
+}
+.menu_container {
+  background: #0c213a;
+  padding-top: 0px;
+  height: 100%;
+}
+.menu_container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menu_container ul li {
+  padding: 10px 10px 10px 16px;
+  color: #e6e6e6;
+}
+.menu_container ul li a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+.menu_container ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.menu_container ul li.active {
+  /* background: #1e1f57; */
+}
+.menu_container ul li.active a {
+  background: url(/src/components/Vector.png) no-repeat 100% 50%;
+  display: flex;
+}
+.menu_container ul li:hover a {
+  background: url(/src/components/Vector.png) no-repeat 100% 50%;
+  display: flex;
+}
+.button_sideBySide {
+  position: relative;
+}
+.button_sideBySide_next {
+  bottom: 30px;
+  position: absolute;
+  left: 120px;
+}
+.radioButtonGroup {
+  display: flex;
+}
+
+.corporate_form {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  /* width: 70%; */
+}
+
+.radioButtonGroup form {
+  width: 100%;
+}
+.radioButtonGroup_outer .field .form-group {
+  display: flex;
+}
+.radioButtonGroup_outer .field .form-group .form-label {
+  width: 200px;
+}
+.radioButtonGroup .form-group {
+  margin-bottom: 0;
+}
+.right_side {
+  width: 100%;
+  padding-left: 250px;
+  padding: 50px 50px 50px 300px;
+}
+.left_side {
+  width: 250px;
+}
+.card {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #e3ebf6 !important;
+}
+.control-label {
+  width: 180px;
+  font-weight: 600;
+}
+
+.field-radio-group label {
+  margin-right: 20px;
+}
+.field-radio-group label input {
+  margin-right: 2px;
+}
+.radioButtonGroup_outer .form-group {
+  margin-bottom: 15px;
+}
+.radioButtonGroup_outer .form-group:last-child {
+  margin-bottom: 0px;
+}
+
+.corporate_form_box1 {
+  padding: 30px;
+  /* padding-bottom: 0; */
+}
+.corporate_form_box1 .form-group {
+  margin-bottom: 5px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btnMargin {
+  margin-left: 320px;
+}
