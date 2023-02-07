@@ -177,7 +177,14 @@ export const schema5 = {
       type: "string",
       title: "Product:",
       default: "",
-      enum: ["product1", "product2", "product3", "product4", "policy_Hold"],
+      enum: [
+        "product1",
+        "product2",
+        "product3",
+        "product4",
+        "policy_Hold",
+        "addition_Policy_Hold",
+      ],
     },
     start_Policy: {
       title: "Policy start date",
@@ -192,6 +199,10 @@ export const schema5 = {
     policy_Hold: {
       type: "string",
       title: "Policy holder:",
+    },
+    addition_Policy_Hold: {
+      type: "string",
+      title: "Additional Policy holder:",
     },
   },
 };
