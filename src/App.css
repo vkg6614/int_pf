@@ -34,8 +34,8 @@
   color: #e6e6e6;
 }
 .menu_container ul li a {
-  color: #e6e6e6;
   text-decoration: none;
+  color: #a9baca;
 }
 .menu_container ul li a:hover {
   color: #fff;
@@ -85,15 +85,33 @@
 .right_side {
   width: 100%;
   padding-left: 250px;
-  padding: 50px 50px 50px 300px;
+}
+.right_side_inner {
+  padding: 110px 50px 50px 50px;
 }
 .left_side {
   width: 250px;
+}
+.heading {
+  padding: 20px 50px;
+  border-bottom: 1px solid #e3ebf6;
+  margin-bottom: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: #fff;
 }
 .card {
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: 1px solid #e3ebf6 !important;
+}
+.card_spaching {
+  width: 100%;
+  margin: 0px auto 20px;
+  padding: 30px;
 }
 .control-label {
   width: 180px;
@@ -104,7 +122,7 @@
   margin-right: 20px;
 }
 .field-radio-group label input {
-  margin-right: 2px;
+  margin-right: 4px;
 }
 .radioButtonGroup_outer .form-group {
   margin-bottom: 15px;
@@ -118,14 +136,60 @@
   /* padding-bottom: 0; */
 }
 .corporate_form_box1 .form-group {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
+.offcanvas_button {
+  display: none !important;
+ }
+
 
 @import url("https://fonts.googleapis.com/css2?family=Ceviche+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+  color: #2c3652;
 }
 
 .btnMargin {
   margin-left: 320px;
+}
+
+
+
+
+
+@media(max-width: 991px) {
+  .offcanvas_button {
+    display: flex !important;
+   }
+   .right_side {
+    padding-left: 0px;
+   }
+   .heading {
+    display: flex;
+    align-items: center;
+   }
+   .menu_container.left_side {
+  display: none;
+   }
+}
+ 
+
+@media(max-width: 768px) {
+
+  
+
+
+}
+
+@media(max-width: 767px) {
+  
+
+}
+
+
+
+
+/* mobile */
+@media(max-width: 576px) {
+   
 }

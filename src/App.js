@@ -16,6 +16,11 @@ import Configuration from "./components/Configuration/Configuration";
 import ProductBuilder from "./components/ProductBuilder/ProductBuilder";
 import Admin from "./components/AdminPage/Admin";
 import AdminMenu from "./components/AdminPage/AdminMenu";
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 function App() {
   return (
     <>
